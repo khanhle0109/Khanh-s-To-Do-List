@@ -1,0 +1,26 @@
+body{
+    background-color: azure;
+}
+header{
+    font-size: 20px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+header,form{
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form button {
+    color: blueviolet;
+    background-color: white;
+    cursor: pointer;
+    transtion: all 0.3 ease;
+}
+form button:hover {
+    background: violet;
+    color: white;
+}
+form input, form button{
+    font-size: 30px;
+}
