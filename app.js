@@ -8,10 +8,10 @@ todoButton.addEventListener('click', addTodo);
 
 
 
-fucntion addTodo(event) (
+function addTodo(event) (
     event. preventDefault();
 
-    const todoDiv = document.createElelment("div");
+    const todoDiv = document.createElement("div");
     todoDiv.classlist.add("todo");
 
     const newTodo = document.createElement('li');
